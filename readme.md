@@ -2,13 +2,13 @@
 
 
 ## 1. Visual Studio Code 에서 NodeJS 진행하기 
-![nodeJS](./nodejs.png)
+![nodeJS](nodejs.png)
 
 1-1) nodejsworkspace 워크스페이스 폴더 생성하고 Visul Studio Code 열기
-![vscode 폴더 열기](./vs01.jpg)
+![vscode 폴더 열기](vs01.jpg)
 
 1-2) 보기 메뉴 -> 통합 터미널
-![vscode 터미널 열기](./vs02.jpg)
+![vscode 터미널 열기](vs02.jpg)
 
 1-3) 터미널에서 노드 확인하기
 ```command
@@ -63,7 +63,7 @@ console.log('circleArea(3) = %d', module.circleArea(3));
 
 결과 : 
 
-![사용자모듈사용하기](./vs02_1.jpg)
+![사용자모듈사용하기](vs02_1.jpg)
 
 
 
@@ -89,7 +89,7 @@ console.log(parseObject);
 
 결과 :
 
-![url모듈](./vs03.jpg)
+![url모듈](vs03.jpg)
 
 <br><br>
 
@@ -115,7 +115,7 @@ console.log(querystring.parse(parseObject.query));
 
 결과 :
 
-![querystring모듈](./vs04.jpg)
+![querystring모듈](vs04.jpg)
 
 <br><br>
 
@@ -145,7 +145,7 @@ console.log('복호화 : ' + decipheredOutput);
 
 결과 :
 
-![cripto모듈](./vs05.jpg)
+![cripto모듈](vs05.jpg)
 
 <br><br>
 
@@ -182,7 +182,7 @@ fs.readFile('textfile.txt', 'utf-8', (error, data) => {
 
 결과 : 
 
-![fs모듈1](./vs06.jpg)
+![fs모듈1](vs06.jpg)
 
 
 #### 2-4-4. write
@@ -212,9 +212,9 @@ console.log('write_sync');
 
 결과 : 
 
-![fs모듈2](./vs07.jpg)
+![fs모듈2](vs07.jpg)
 
-![fs모듈2](./vs07_2.jpg)
+![fs모듈2](vs07_2.jpg)
 
 위와 같이 현재 디렉토리에 TextFileWrite.txt와 TextFileWriteSync.txt의 2개 파일이 만들어진다.
 
@@ -238,7 +238,7 @@ custom.emit('tick');
 
 결과 : 
 
-![event모듈1](./vs08.jpg)
+![event모듈1](vs08.jpg)
 
 
 #### 2.5-1. 파일 분리해서 사용하기
@@ -294,7 +294,7 @@ setTimeout(function(){
 
 결과 : 
 
-![http모듈1](./vs_ch01_01.jpg)
+![http모듈1](vs_ch01_01.jpg)
 
 <br>
 
@@ -310,7 +310,7 @@ require('http').createServer().listen(52273, function(){
 
 결과 : 
 
-![http모듈1](./vs_ch01_02.jpg)
+![http모듈1](vs_ch01_02.jpg)
 
 <br>
 
@@ -337,11 +337,12 @@ require('http').createServer((request, response)=>{
 });
 //브라우저를 실행하고, URL입력줄에 http://127.0.0.1:52273 엔터
 ```
+
 터미널 명령 결과 : 
-![response1-1](./vs_ch01_03.jpg)
+![response1-1](vs_ch01_03.jpg)
 
 브라우저 결과 :
-![respones1-2](./vs_ch01_04.jpg)
+![respones1-2](vs_ch01_04.jpg)
 
 <br>
 
@@ -385,6 +386,12 @@ htmlPage.html 로 출력 파일 생성하기
 </html>
 ```
 
+터미널 명령 결과 : 
+![response1-1](vs_ch01_05.jpg)
+
+브라우저 결과 :
+![respones1-2](vs_ch01_06.jpg)
+
 httpFile.js 실행 후 해당 url 실행하기.
 
 <br>
@@ -419,6 +426,14 @@ http.createServer(function(request,response){
 });
 ```
 
+터미널 명령 결과 : 
+![response1-1](vs_ch01_07.jpg)
+
+브라우저 결과 :
+![respones1-2](vs_ch01_08.jpg)
+
+![respones1-2](vs_ch01_09.jpg)
+
 <br>
 
 #### 3-2-3. 쿠키 사용하기
@@ -439,3 +454,8 @@ http.createServer(function(request, response){
 });
 ```
 
+터미널 명령 결과 : 
+![response1-1](vs_ch01_10.jpg)
+
+브라우저 결과 :
+![respones1-2](vs_ch01_11.jpg)
