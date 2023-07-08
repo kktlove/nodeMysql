@@ -3,7 +3,7 @@
 
 ## 1. Visual Studio Code 에서 NodeJS 진행하기 
 
-![nodeJS](../../nodejs.png)
+![nodeJS](https://github.com/dreamkimkt/nodeMysql/blob/master/nodejs.png)
 
 1-1) nodejsworkspace 워크스페이스 폴더 생성하고 Visul Studio Code 열기
 
