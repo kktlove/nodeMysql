@@ -2,13 +2,13 @@
 
 
 ## 1. Visual Studio Code 에서 NodeJS 진행하기 
-![nodeJS](nodejs.png)
+![nodeJS](https://github.com/dreamkimkt/nodeMysql/nodejs.png)
 
 1-1) nodejsworkspace 워크스페이스 폴더 생성하고 Visul Studio Code 열기
-![vscode 폴더 열기](vs01.jpg)
+![vscode 폴더 열기](https://github.com/dreamkimkt/nodeMysql/vs01.jpg)
 
 1-2) 보기 메뉴 -> 통합 터미널
-![vscode 터미널 열기](vs02.jpg)
+![vscode 터미널 열기](https://github.com/dreamkimkt/nodeMysql/vs02.jpg)
 
 1-3) 터미널에서 노드 확인하기
 ```command
@@ -63,7 +63,7 @@ console.log('circleArea(3) = %d', module.circleArea(3));
 
 결과 : 
 
-![사용자모듈사용하기](vs02_1.jpg)
+![사용자모듈사용하기](https://github.com/dreamkimkt/nodeMysql/vs02_1.jpg)
 
 
 
@@ -89,7 +89,7 @@ console.log(parseObject);
 
 결과 :
 
-![url모듈](vs03.jpg)
+![url모듈](https://github.com/dreamkimkt/nodeMysql/vs03.jpg)
 
 <br><br>
 
@@ -115,7 +115,7 @@ console.log(querystring.parse(parseObject.query));
 
 결과 :
 
-![querystring모듈](vs04.jpg)
+![querystring모듈](https://github.com/dreamkimkt/nodeMysql/vs04.jpg)
 
 <br><br>
 
@@ -145,7 +145,7 @@ console.log('복호화 : ' + decipheredOutput);
 
 결과 :
 
-![cripto모듈](vs05.jpg)
+![cripto모듈](https://github.com/dreamkimkt/nodeMysql/vs05.jpg)
 
 <br><br>
 
@@ -182,7 +182,7 @@ fs.readFile('textfile.txt', 'utf-8', (error, data) => {
 
 결과 : 
 
-![fs모듈1](vs06.jpg)
+![fs모듈1](https://github.com/dreamkimkt/nodeMysql/vs06.jpg)
 
 
 #### 2-4-4. write
@@ -212,9 +212,9 @@ console.log('write_sync');
 
 결과 : 
 
-![fs모듈2](vs07.jpg)
+![fs모듈2](https://github.com/dreamkimkt/nodeMysql/vs07.jpg)
 
-![fs모듈2](vs07_2.jpg)
+![fs모듈2](https://github.com/dreamkimkt/nodeMysql/vs07_2.jpg)
 
 위와 같이 현재 디렉토리에 TextFileWrite.txt와 TextFileWriteSync.txt의 2개 파일이 만들어진다.
 
@@ -238,7 +238,7 @@ custom.emit('tick');
 
 결과 : 
 
-![event모듈1](vs08.jpg)
+![event모듈1](https://github.com/dreamkimkt/nodeMysql/vs08.jpg)
 
 
 #### 2.5-1. 파일 분리해서 사용하기
